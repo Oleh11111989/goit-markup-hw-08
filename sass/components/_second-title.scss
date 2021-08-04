@@ -1,0 +1,9 @@
+.second-title {
+  text-align: center;
+  @include font-no-ls(bold, 28px, 1.18, var(--black-text));
+  margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    @include font-no-ls(bold, 36px, 1.7, var(--black-text));
+    margin-bottom: 50px;
+  }
+}
